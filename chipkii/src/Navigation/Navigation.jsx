@@ -7,8 +7,9 @@ import Routing from './Routing/Routing'
 const Navigation = () => {
   return (
     <div><BrowserRouter>
+    <Navbar/>
     <Routing/>
-        <Navbar/>
+        
 
     </BrowserRouter>
     </div>

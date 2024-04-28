@@ -1,0 +1,20 @@
+.Navbar-Main-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7em;
+}
+.Navbar-Main-Menu-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2em;
+}
+.Navbar-Button-Container{
+    border-radius: 10%;
+    
+    border: 0px solid red;
+}
+.Navbar-Button-Container button:hover{
+    background-color: rgb(124, 177, 177);
+}
