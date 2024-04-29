@@ -1,20 +1,64 @@
-.Navbar-Main-Container{
+.Navbar-Main-Container {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 7em;
+
 }
-.Navbar-Main-Menu-Container{
+
+.Navbar-Main-Menu-Container {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 2em;
+
 }
-.Navbar-Button-Container{
+
+.Navbar-Button-Container {
     border-radius: 10%;
-    
+    background-color: rgb(142, 142, 239);
+
     border: 0px solid red;
 }
-.Navbar-Button-Container button:hover{
-    background-color: rgb(124, 177, 177);
+
+.Navbar-Main-Right-Container {
+    /* background-color: rgb(124, 177, 177); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    column-gap: 24px;
+
+}
+
+.Navbar-Main-Menu-Container {
+    text-decoration: none;
+}
+
+.Active {
+    padding-bottom: 2px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
+}
+
+.Navbar-Main-Right-Container .Navbar-Right-Side-Cart-Container {
+    /* font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;  */
+    /*       
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px; */
+    /* position: absolute; */
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
