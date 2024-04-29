@@ -1,0 +1,19 @@
+.ExplorerSlide-Main-Container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 5px 5px;
+   
+}
+.ExploreSlider-image-Container{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    
+    border: opx solid black;
+    /* gap: 40px; */
+    
+}
