@@ -3,17 +3,22 @@
     flex-wrap: wrap;
     
     align-items: center;
-    gap: 40px;
+    gap:90px 40px;
     justify-content: space-between;
-    padding: 5px 5px;
+   
    
 }
 .ExploreSlider-image-Container{
     width: 200px;
     height: 200px;
     background-size: cover;
+    /* padding: 20px 0px; */
     
     border: opx solid black;
     /* gap: 40px; */
     
+}
+.ExploreSlider-image-Container p{
+    padding:0px;
+    margin: 0px;
 }

@@ -5,6 +5,8 @@ import MobileApp from '../../Page/MobileApp/MobileApp'
 import Home from "../../Page/Home/Home"
 import Cart from '../../Page/Cart/Cart'
 import PlaceOrder from '../../Page/PlaceOrder/PlaceOrder'
+import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
+import ExplorSlider from '../../Components/ExploreSlider/ExplorSlider'
 
 const Routing = () => {
     return (
@@ -17,6 +19,15 @@ const Routing = () => {
                 <Route path="/MobileApp" element={<MobileApp />} />
                 <Route path='/Cart'  element={<Cart/>}/>
                 <Route path='/Order' element={<PlaceOrder/>}/>
+
+{/* 
+                {ExplorerSliderData.map((each)=>{
+                    return(
+                    <Route path={each.link} element={<ExplorSlider key={each.index} name={each.Name} Src={each.Url} Alt={each.alt}/>}/>
+                 ) })
+
+                } */}
+                
                 {/* <Route path="/news" element={<News />} /> */}
                 {/* Define other routes that you need*/}
             </Routes>

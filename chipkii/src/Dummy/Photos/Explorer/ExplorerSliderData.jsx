@@ -28,6 +28,7 @@ import Explore27 from '../Explorer/Explore27.jpg'
 import Explore28 from '../Explorer/Explore28.jpg'
 import Explore25 from '../Explorer/Explore25.jpg'
 import Explore29 from '../Explorer/Explore29.jpg'
+// import { Link } from 'react-router-dom'
 // import Explore2 from '../Explorer/Explore2.jpg'
 // import Explore3 from '../Explorer/Explore3.jpg'
 // import Explore1 from '../Explorer/Explore1.jpg'
@@ -38,166 +39,203 @@ export const ExplorerSliderData = [
         Url: Explore1,
         alt: "Explorer1",
         Name: "Explorer1",
-
+        link:"/Explore",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     },
     {
         Url: Explore17,
-        alt: "Explore12",
-        Name: "Explo13e12",
+        alt: "Explore17",
+        Name: "Explore17",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore18,
-        alt: "Explore12",
-        Name: "Explore12",
+        alt: "Explore18",
+        Name: "Explore18",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     },
     {
         Url: Explore12,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore12",
+        Name: "Explore12",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore2,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore2",
+        Name: "Explore2",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore22,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore22",
+        Name: "Explore22",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore21,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore21",
+        Name: "Explore21",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore22,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore22",
+        Name: "Explore22",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore23,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore23",
+        Name: "Explore23",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore24,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore24",
+        Name: "Explore24",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore25,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore25",
+        Name: "Explore25",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore26,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore26",
+        Name: "Explore26",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore27,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore27",
+        Name: "Explore27",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore28,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore28",
+        Name: "Explore28",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     }, {
         Url: Explore29,
-        alt: "Explore",
-        Name: "Explore",
+        alt: "Explore29",
+        Name: "Explore29",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     },
     {
         Url: Explore1,
         alt: "Explorer1",
         Name: "Explorer1",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore4,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer4",
+        Name: "Explorer4",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore5,
-        alt: "Explorer1",
-        Name: "Explorer1",
-
+        alt: "Explorer5",
+        Name: "Explorer5",
+        link:"/Explore5",
+        
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit",
     },
     {
         Url: Explore15,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer15",
+        Name: "Explorer15",
+        link:"/Explore15",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit",
 
     },
     {
         Url: Explore6,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer16",
+        Name: "Explorer16",
+        link:"/Explore16",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore7,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer17",
+        Name: "Explorer17",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit",
 
     },
     {
         Url: Explore8,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer8",
+        Name: "Explorer8",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore9,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer9",
+        Name: "Explorer9",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore10,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer10",
+        Name: "Explorer10",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore1,
         alt: "Explorer1",
         Name: "Explorer1",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+
 
     },
     {
         Url: Explore12,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer12",
+        Name: "Explorer12",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore13,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer13",
+        Name: "Explorer13",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore14,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer14",
+        Name: "Explorer14",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore15,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer15",
+        Name: "Explorer15",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
+    
     {
         Url: Explore16,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer16",
+        Name: "Explorer16",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore2,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer2",
+        Name: "Explorer2",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
     {
         Url: Explore3,
-        alt: "Explorer1",
-        Name: "Explorer1",
+        alt: "Explorer3",
+        Name: "Explorer3",
+        Definition:"Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
 
     },
 ];

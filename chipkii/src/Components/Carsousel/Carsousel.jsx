@@ -7,9 +7,9 @@ import { Explorer } from '../../Dummy/Photos/Explorer/Explorer';
 
 const Carsousel = () => {
   return (<>
-  
-  
-    <Carousel data-bs-theme="dark">
+
+
+    <Carousel data-bs-theme="dark" className='Carsousel-main-container'>
       <Carousel.Item>
         <img
           className="d-block w-100 Carsousel-Image-Container " id='Carsousel-1'
@@ -25,7 +25,7 @@ const Carsousel = () => {
         <img
           className="d-block w-100 Carsousel-Image-Container"
           id='Carsousel-2'
-        //   src={Explorer.Explorer2}
+          //   src={Explorer.Explorer2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -48,10 +48,10 @@ const Carsousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    
-    </>
-    );
-  
+
+  </>
+  );
+
 }
 
 export default Carsousel
