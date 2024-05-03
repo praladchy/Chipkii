@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ExplorSlider.css"
 import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
 import { Link } from 'react-router-dom'
@@ -26,19 +26,23 @@ import { Link } from 'react-router-dom'
 // export default ExplorSlider
 
 
-const ExplorSlider = () => {
+const ExplorSlider = ({props}) => {
+  // const [Count,setCount]=useState(0)
   return (
     <div className='ExplorerSlide-Main-Container'>
       {
         ExplorerSliderData.map((each, index) => {
           return (
             <div className="ExploreSlider-image-Container" key={index}>
-              <Link to={each.Name} >
+              if({props.Category===each.Cartigory || props.cartegory==="All"}l) 
+              <span><Link to={each.Name} >
                 <img className='ExploreSlider-image-Container' src={each.Url} alt={each.alt} />
-                <h6>{each.Name}</h6>
+                <h6>{each.Name}</h6></Link></span>
                 
-              </Link>
+              
               <p>{each.Definition}</p>
+              
+
             </div>
           )
 

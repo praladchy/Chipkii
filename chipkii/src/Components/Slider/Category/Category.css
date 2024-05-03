@@ -1,0 +1,33 @@
+.Slider-Main-Container {
+    display: flex;
+    /* background-color: lightgrey; */
+    margin: 20px 0px;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+    /* overflow: hidden; */
+    overflow-x: scroll;
+    padding: 5px 5px;
+}
+
+.Slider-Image-Container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0px solid green;
+    /* padding: 50px; */
+
+    background-size: cover;
+    overflow-x: scroll;
+    scroll-behavior: auto;
+    
+
+}
+.Slider-Main-Container::-webkit-scrollbar{
+    display: none;
+}
+hr{
+    opacity: 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
