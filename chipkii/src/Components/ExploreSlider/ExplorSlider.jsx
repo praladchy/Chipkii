@@ -1,8 +1,9 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import "./ExplorSlider.css"
-import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
+// import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
 import { Link } from 'react-router-dom'
-import NoteContext from "../UseContext/CreateContext/NoteContext"
+// import NoteContext from "../UseContext/CreateContext/NoteContext"
+import { Notecontext } from '../UseContext/CreateContext/NoteContextprovider'
 
 
 // const ExplorSlider = ({key,name,Src,Alt} ) => {
@@ -30,11 +31,12 @@ import NoteContext from "../UseContext/CreateContext/NoteContext"
 
 const ExplorSlider = ({ Category }) => {
   // const{ ExplorerSliderDat}=useContext(NoteContext);
+  const Explor=useContext(Notecontext)
   // const [Count,setCount]=useState(0)
   return (
     <div className='ExplorerSlide-Main-Container'>
       {
-        ExplorerSliderData.map((each, index) => {
+        Explor.map((each, index) => {
           
           if(Category===each.Cartigory || Category==="All"){
           return (
