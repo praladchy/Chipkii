@@ -9,13 +9,13 @@ import NoteContextprovider from '../Components/UseContext/CreateContext/NoteCont
 const Navigation = () => {
   return (
     <div><BrowserRouter>
-    {/* <CreateContext> */}
+    
 
    <NoteContextprovider>
 
     <Navbar/>
     <Routing/>
-    {/* </CreateContext> */}
+   
     </NoteContextprovider>
 
     </BrowserRouter>

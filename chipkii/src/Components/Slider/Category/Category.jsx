@@ -6,8 +6,8 @@ import { SliderData } from '../../../Dummy/Photos/SliderData/SliderData'
 import ExplorSlider from '../../ExploreSlider/ExplorSlider'
 import "./Category.css"
 const Category = () => {
-    const [Category, setCategory] = useState("all")
-    console.log(Category)
+    const [Category, setCategory] = useState("All")
+    // console.log(Category)
     return (<>
    
         <div className='Slider-Main-Container'>
