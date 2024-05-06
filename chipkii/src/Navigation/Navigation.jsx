@@ -6,21 +6,23 @@ import Routing from './Routing/Routing'
 import NoteContextprovider from '../Components/UseContext/CreateContext/NoteContextprovider'
 
 
+
 const Navigation = () => {
   return (
-    <div><BrowserRouter>
+    <><BrowserRouter>
     
 
    <NoteContextprovider>
 
     <Navbar/>
     <Routing/>
-   
+    
     </NoteContextprovider>
-
+    
     </BrowserRouter>
-    </div>
+    </>
   )
 }
+
 
 export default Navigation

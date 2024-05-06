@@ -1,0 +1,13 @@
+.Social-Media-Main-Container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    /* width: 90px 90px; */
+}
+.Google-Icon-Main-Conatiner{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}

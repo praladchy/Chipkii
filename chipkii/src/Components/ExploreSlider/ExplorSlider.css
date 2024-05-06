@@ -1,26 +1,33 @@
 .ExplorerSlide-Main-Container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    
+    /* text-align: center; */
     align-items: center;
-    gap:116px 40px;
-    justify-content: space-between;
+    gap:40px 21px;
+    /* justify-content: center; */
+    padding: 35px;
     /* padding-bottom: 5px;s */
-   
+background-color: aqua;
    
 }
 .ExploreSlider-image-Container{
     width: 200px;
     height: 200px;
-    background-size: cover;
+    /* background-size: cover; */
     /* padding: 20px 0px; */
     
     border: opx solid black;
-    text-decoration: none;
+    text-decoration: none                       ;
     /* gap: 40px; */
     
 }
 .ExploreSlider-image-Container p{
     padding:0px;
     margin: 0px;
+}
+.ExploreSlider-image-Description-Container{
+    width: 200px;
+    height: 300px;
+    /* text-align: center; */
 }

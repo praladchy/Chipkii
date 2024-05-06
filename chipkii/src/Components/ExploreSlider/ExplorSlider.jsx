@@ -43,7 +43,7 @@ const ExplorSlider = ({ Category }) => {
           if(Category===each.Cartigory || Category==="All"){
           return (
 
-            <div  className="ExploreSlider-image-Container" key={index}  >
+            <div  className="ExploreSlider-image-Description-Container" key={index}  >
 
               {/* <Link to={each.Name} >
                 <img  className='ExploreSlider-image-Container' src={each.Url} alt={each.alt} />
