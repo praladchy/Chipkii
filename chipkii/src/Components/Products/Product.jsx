@@ -8,7 +8,7 @@ const Product = ({ Name, Url, alt, Definition }) => {
   return (
     <>
       <Link to={Name} >
-        <img className='ExploreSlider-image-Container' src={Url} alt={alt} /></Link>
+        <img className='ExploreSlider-image-Container' src={Url} alt={alt} /></Link>s
 
       {Count === 0 ? < GrAdd onClick={()=>setCount(Count => Count + 1)} /> :
         <>< GrAdd  onClick={()=>setCount(Count => Count + 1) }/>
