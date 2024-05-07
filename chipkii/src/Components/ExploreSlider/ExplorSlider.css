@@ -8,8 +8,11 @@
     /* justify-content: center; */
     padding: 35px;
     /* padding-bottom: 5px;s */
-background-color: aqua;
+background-color:rgb(19, 24, 24);
    
+}
+.ExplorerSlide-Main-Container {
+    color: azure;
 }
 .ExploreSlider-image-Container{
     width: 200px;

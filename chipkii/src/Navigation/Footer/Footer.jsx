@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Chocolate from "../../Dummy/Photos/R.png"
 import "./Footer.css"
 const Footer = () => {
     return (
@@ -22,9 +23,13 @@ const Footer = () => {
 
 
             </div>
+            <div className="Footer-Slogan-Container">
+                <img src={Chocolate} alt='Slogan' width="350em" />
 
-            <p className='Footer-Main'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto eveniet cum accusamus eos corporis, asperiores maiores neque odit vitae. lorem60 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, adipisci esse voluptate at eligendi, repudiandae reprehenderit sapiente obcaecati minus consequuntur ducimus! Non, voluptates delectus est, labore unde suscipit enim quam deleniti ducimus eveniet assumenda voluptatem expedita possimus corrupti alias maxime. Temporibus veritatis facere incidunt adipisci dicta accusamus quidem. Ex ipsa porro temporibus, quas facere inventore distinctio alias quos blanditiis officiis?</p>
 
+                <p className='Footer-Main'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto eveniet cum accusamus eos coritatis facere incidunt adipisci dicta accusamus quidem. Ex ipsa porro temporibus, quas facere inventore distinctio alias quos blanditiis officiis?</p>
+            </div>
+            <p>"permission to reproduce photographs and other copyright material"</p>
         </div>
     )
 }

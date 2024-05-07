@@ -7,6 +7,7 @@ import Cart from '../../Page/Cart/Cart'
 import PlaceOrder from '../../Page/PlaceOrder/PlaceOrder'
 import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
 import ExplorSlider from '../../Components/ExploreSlider/ExplorSlider'
+import Login from '../../Page/Login/Login'
 
 const Routing = () => {
     return (
@@ -17,25 +18,25 @@ const Routing = () => {
                 <Route path="/Menu" element={<Menu />} />
                 {/* <Routes> */}
                 <Route path="/MobileApp" element={<MobileApp />} />
-                <Route path='/Cart'  element={<Cart/>}/>
-                <Route path='/Order' element={<PlaceOrder/>}/>
-
-{/* 
+                <Route path='/Cart' element={<Cart />} />
+                <Route path='/Order' element={<PlaceOrder />} />
+                <Route path='/Login' element={<Login />} />
+                {/* 
                 {ExplorerSliderData.map((each)=>{
                     return(
                     <Route path={each.link} element={<ExplorSlider key={each.index} name={each.Name} Src={each.Url} Alt={each.alt}/>}/>
                  ) })
 
                 } */}
-                
+
                 {/* <Route path="/news" element={<News />} /> */}
                 {/* Define other routes that you need*/}
             </Routes>
             {/* Define other routes that you need*/}
-        {/* </Routes> */}
-        {/* </Router> */ }
-    </div >
-  )
+            {/* </Routes> */}
+            {/* </Router> */}
+        </div >
+    )
 }
 
 export default Routing
