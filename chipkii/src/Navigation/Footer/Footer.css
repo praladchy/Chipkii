@@ -1,0 +1,25 @@
+.Footer-Nav-Container{
+text-decoration: none;
+display: flex;
+justify-content: space-evenly;
+
+}
+.Footer-Main-Container{
+    text-decoration: none;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.Footer-Nav{
+    text-decoration: none;
+    color: antiquewhite;
+    gap: 20px;
+}
+.Footer-Heading-container{
+    background-color: rgb(216, 222, 222);
+    
+}
+.Footer-Nav-Container p{
+    color: rgb(195, 198, 198);
+}

@@ -16,7 +16,7 @@ const Product = ({ Name, Url, alt, Definition }) => {
         <>< GrAdd onClick={() => setCount(Count => Count + 1)} />
           {Count}
           <FaMinus onClick={() => setCount(Count => Count - 1)} /></>}
-      <Link to={Name} >
+      <Link to={Name} className='ExploreSlider-image-Container'>
         <h6>{Name}</h6></Link>
       <p >{Definition}</p>
     </>
