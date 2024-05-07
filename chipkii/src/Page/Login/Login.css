@@ -20,7 +20,7 @@ form {
   }
   
   /* Set a style for all buttons */
-  button {
+  .Form-Main-Container button {
     background-color: #04AA6D;
     color: white;
     padding: 10px 16px;

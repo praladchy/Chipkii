@@ -1,4 +1,4 @@
-import React, { useContext} from 'react'
+import React, { useContext, useState } from 'react'
 import "./ExplorSlider.css"
 // import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
 // import { Link} from 'react-router-dom'
@@ -31,19 +31,23 @@ import Product from '../Products/Product'
 
 
 const ExplorSlider = ({ Category }) => {
-  
-  const Explors=useContext(Notecontext)
-  
-  
-  return (
+  const [isReadMore, setIsReadMore] = useState(true);
+
+  const Explors = useContext(Notecontext)
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  const Explorer = Explors.slice(0, 20);
+  const Explore = Explors;
+
+  return (<>
     <div className='ExplorerSlide-Main-Container'>
-      {
-        Explors.map((each, index) => {
-          
-          if(Category===each.Cartigory || Category==="All"){
+      {isReadMore ? <>{Explorer.map((each, index) => {
+
+        if (Category === each.Cartigory || Category === "All") {
           return (
 
-            <div  className="ExploreSlider-image-Description-Container" key={index}  >
+            <div className="ExploreSlider-image-Description-Container" key={index}  >
 
               {/* <Link to={each.Name} >
                 <img  className='ExploreSlider-image-Container' src={each.Url} alt={each.alt} />
@@ -52,17 +56,49 @@ const ExplorSlider = ({ Category }) => {
 
               <p >{each.Definition}</p> */}
 
-              <Product Name={each.Name} Url={each.Url} alt={each.alt} Definition={each.Definition}/>
+              <Product Name={each.Name} Url={each.Url} alt={each.alt} Definition={each.Definition} />
 
             </div>
-            
-            
+
+
           );
         }
         return null;
-      
-      })}
+
+      })}</> : <>{
+        Explore.map((each, index) => {
+
+          if (Category === each.Cartigory || Category === "All") {
+            return (
+
+              <div className="ExploreSlider-image-Description-Container" key={index}  >
+
+                {/* <Link to={each.Name} >
+                <img  className='ExploreSlider-image-Container' src={each.Url} alt={each.alt} />
+                <h6>{each.Name}</h6></Link>
+
+
+              <p >{each.Definition}</p> */}
+
+                <Product Name={each.Name} Url={each.Url} alt={each.alt} Definition={each.Definition} />
+
+              </div>
+
+
+            );
+          }
+          return null;
+
+        })}</>};
+
+
     </div>
+    <div className="Explore-button-container">
+      <button onClick={toggleReadMore} className='Navbar-Button-Container' >
+        {isReadMore ? 'Read more' : 'Read less'}
+      </button>
+    </div>
+  </>
   )
 }
 

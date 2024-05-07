@@ -34,3 +34,10 @@ background-color:rgb(19, 24, 24);
     height: 300px;
     /* text-align: center; */
 }
+.Explore-button-container{
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    /* margin: 0px auto; */
+    /* background-color: rgb(49, 49, 248); */
+}
