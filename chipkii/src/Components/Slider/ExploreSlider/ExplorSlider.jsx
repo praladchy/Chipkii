@@ -3,8 +3,8 @@ import "./ExplorSlider.css"
 // import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
 // import { Link} from 'react-router-dom'
 // import NoteContext from "../UseContext/CreateContext/NoteContext"
-import { Notecontext } from '../UseContext/CreateContext/NoteContextprovider'
-import Product from '../Products/Product'
+import { Notecontext } from '../../Hooks/CreateContext/NoteContextprovider'
+import Product from '../../Products/Product'
 
 
 // const ExplorSlider = ({key,name,Src,Alt} ) => {
@@ -37,12 +37,10 @@ const ExplorSlider = ({ Category }) => {
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
   };
-  const Explorer = Explors.slice(0, 20);
-  const Explore = Explors;
-
+  
   return (<>
     <div className='ExplorerSlide-Main-Container'>
-      {isReadMore ? <>{Explorer.map((each, index) => {
+      {isReadMore ? <>{Explors.slice(0, 20).map((each, index) => {
 
         if (Category === each.Cartigory || Category === "All") {
           return (
@@ -66,7 +64,7 @@ const ExplorSlider = ({ Category }) => {
         return null;
 
       })}</> : <>{
-        Explore.map((each, index) => {
+        Explors.map((each, index) => {
 
           if (Category === each.Cartigory || Category === "All") {
             return (

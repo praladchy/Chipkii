@@ -5,8 +5,8 @@ import MobileApp from '../../Page/MobileApp/MobileApp'
 import Home from "../../Page/Home/Home"
 import Cart from '../../Page/Cart/Cart'
 import PlaceOrder from '../../Page/PlaceOrder/PlaceOrder'
-import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
-import ExplorSlider from '../../Components/ExploreSlider/ExplorSlider'
+// import { ExplorerSliderData } from '../../Dummy/Photos/Explorer/ExplorerSliderData'
+// import ExplorSlider from '../../Components/ExploreSlider/ExplorSlider'
 import Login from '../../Page/Login/Login'
 
 const Routing = () => {

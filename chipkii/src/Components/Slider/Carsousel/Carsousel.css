@@ -6,7 +6,7 @@
     flex-shrink: 2;
 }
 #Carsousel-2{
-    background-image:url("../../Dummy/Photos/Explorer/Explore2.jpg");
+    /* background-image:url("../../Dummy/Photos/Explorer/Explore2.jpg"); */
     font-size: smaller;
     background-size: cover;
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Home.css"
-import Carsousel from '../../Components/Carsousel/Carsousel'
+import Carsousel from '../../Components//Slider/Carsousel/Carsousel'
 import Slider from '../../Components/Slider/Slider'
 
-import MediaEmbed from '../../Navigation/Media/MediaEmbed'
+import MediaEmbed from '../../Components/Media/MediaEmbed'
 import Footer from '../../Navigation/Footer/Footer'
 const Home = () => {
   return (

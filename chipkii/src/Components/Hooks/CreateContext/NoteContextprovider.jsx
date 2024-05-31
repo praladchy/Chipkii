@@ -15,7 +15,7 @@
 
 // export default CreateContext
 import React, { createContext } from 'react'
-import { ExplorerSliderData } from '../../../Dummy/Photos/Explorer/ExplorerSliderData';
+import { ExplorerSliderData } from '../../../Dummy/DummyData/ExplorerSliderData';
 
 export const Notecontext=createContext();
 const NoteContextprovider = (props) => {

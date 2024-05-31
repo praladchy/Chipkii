@@ -2,7 +2,8 @@ import React from 'react'
 import "./Carsousel.css"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Explorer } from '../../Dummy/Photos/Explorer/Explorer';
+import { Explorer } from '../../../Dummy/DummyData/Explorer';
+
 
 
 const Carsousel = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Lable from '../../Dummy/Lable/Lable'
+import Lable from "../../Components/Shared/Lable/Lable"
 import { NavLink, Link } from "react-router-dom"
 import "./Navbar.css"
 import { CiSearch } from "react-icons/ci";
